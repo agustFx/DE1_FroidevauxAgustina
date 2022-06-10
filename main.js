@@ -23,7 +23,8 @@ class Turnos{
 
                 case "2": 
                     alert("Actualmente no nos quedan turnos disponibles para el resto del mes.");
-                    
+                    break;
+
                 case "3":
                     alert("Tenemos turnos lunes y miércoles!");
                     break;
@@ -34,6 +35,7 @@ class Turnos{
                     
                 default:
                     alert("Algo ha salido mal, intenta más tarde."); 
+                    break;
             }
         }
     }
